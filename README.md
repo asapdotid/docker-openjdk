@@ -108,7 +108,7 @@ services:
     application:
         image: docker.io/asapdotid/openjdk:19
         expose:
-            - 9000
+            - 8080
         networks:
             - proxy
         environment:
