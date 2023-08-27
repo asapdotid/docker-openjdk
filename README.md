@@ -96,7 +96,9 @@ make inspect VER=19 TAG=19
 
 Sample build `jar` file is here, spring-boot` [download](https://github.com/mkyong/spring-boot).
 
-build jar file command: `mvn clean package`, sample project `spring-rest-hello-world`
+Build jar file command: `mvn clean package`, sample project `spring-rest-hello-world`
+
+> Connection using `Traefik Proxy (ssl)` [Traefik SSL](https://github.com/asapdotid/dcc-traefik-ssl)
 
 ```yaml
 # docker-compose.yml
@@ -162,3 +164,11 @@ main $@
 ### Supervisor Config
 
 Place config to `/etc/supervisor/conf.d/`
+
+## License
+
+MIT / BSD
+
+## Author Information
+
+This Code was created in 2023 by [Asapdotid](https://github.com/asapdotid).
