@@ -15,7 +15,7 @@ ENV APPLICATION_USER=application \
 
 RUN addgroup -g ${APPLICATION_GID} ${APPLICATION_USER} \
     && adduser -u ${APPLICATION_UID} -G ${APPLICATION_GROUP} -s /bin/sh -D ${APPLICATION_USER} \
-    && apk --update --no-cache add supervisor nodejs npm busybox-suid >/dev/null
+    && apk --update --no-cache add supervisor nodejs npm >/dev/null
 
 # Set timezone
 ENV TZ ${TIMEZONE:-Etc/UTC}
